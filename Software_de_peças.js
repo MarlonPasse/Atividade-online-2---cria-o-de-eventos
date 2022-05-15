@@ -15,3 +15,5 @@ if (nompeca.length > 3) {
 } else {
     console.log("Peça não será cadastrada");
 }
+
+//Fim da atividade
