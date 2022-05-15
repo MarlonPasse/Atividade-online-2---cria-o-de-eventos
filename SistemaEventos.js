@@ -4,11 +4,11 @@
 console.log("Olá, bem-vindo");
 
 //informando nome
-var primeiro =  prompt ("Qual o nome do evento?");
+let primeiro =  require ("Qual o nome do evento?");
 console.log (primeiro);
 
 //informando data
-var segundo = prompt ("qual a data do evento?");
+let segundo = require ("qual a data do evento?");
 console.log(segundo);
 
 if (segundo => 01){
@@ -19,9 +19,9 @@ console.log("Data do evento escolhida")
 
 //Inserindo dados do cliente
 
-var terceiro = prompt ("qual seu nome?");
+let terceiro = require ("qual seu nome?");
 console.log(terceiro);
-var quarto = prompt ("qual sua idade?");
+let quarto = require ("qual sua idade?");
 console.log(quarto);
 
 if (quarto => 18){
@@ -32,7 +32,7 @@ if (quarto => 18){
 
 // informando número de participantes
 
-var quinto = prompt ("Qual o número de participantes?");
+let quinto = require ("Qual o número de participantes?");
 console.log(quinto);
 
 if (quinto > 100){
@@ -41,4 +41,4 @@ if (quinto > 100){
     console.log ("Evento registrado")
 }
 
-//Fim, Sistema de Eventos criado
+console.log("Fim do programa")
